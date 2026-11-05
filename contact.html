@@ -1,0 +1,161 @@
+<!doctype html>
+<html lang="en-ZA" class="no-js">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self' https://fonts.googleapis.com; font-src https://fonts.gstatic.com; img-src 'self' data:; connect-src 'self'; form-action 'self' mailto:; base-uri 'self'; object-src 'none'; upgrade-insecure-requests">
+<meta name="referrer" content="strict-origin-when-cross-origin">
+<title>Contact | Melissa Abrahams</title>
+<meta name="description" content="Book an OHS consultation: Safety Files, risk assessments, audits and training.">
+<meta property="og:title" content="Contact | Melissa Abrahams">
+<meta property="og:description" content="Book an OHS consultation: Safety Files, risk assessments, audits and training.">
+<meta property="og:type" content="website">
+<link rel="icon" href="assets/img/favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:wght@600;700;800&amp;family=IBM+Plex+Mono:wght@400;500;600&amp;family=IBM+Plex+Sans:wght@400;500;600;700&amp;display=swap">
+<link rel="stylesheet" href="assets/css/styles.css">
+<script src="assets/js/main.js" defer></script>
+<script src="assets/js/contact.js" defer></script>
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+<header class="site-header">
+  <div class="hazard-strip" aria-hidden="true"></div>
+  <div class="wrap nav-bar">
+    <a class="brand" href="index.html" aria-label="Melissa Abrahams, home">
+      <span class="brand-mark" aria-hidden="true">MA</span>
+      <span class="brand-text"><strong>Melissa Abrahams</strong><span>OHS &middot; EHS Consulting</span></span>
+    </a>
+    <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="nav-links">Menu</button>
+    <nav aria-label="Main"><ul class="nav-links" id="nav-links">
+      <li><a href="index.html">Home</a></li><li><a href="about.html">About &amp; Certificates</a></li><li><a href="experience.html">Experience</a></li><li><a href="consultations.html">Consultations</a></li><li><a href="showcase.html">AI Showcase</a></li><li class="nav-cta"><a href="contact.html" aria-current="page">Book a consultation</a></li>
+    </ul></nav>
+  </div>
+</header>
+<main id="main">
+<div class="page-hero">
+  <div class="wrap">
+    <div class="crumbs"><a href="index.html">Home</a> / Contact</div>
+    <h1>Book a consultation</h1>
+    <p>Tell me about your site and what you need. I'll respond with a practical scope and timeline.</p>
+  </div>
+</div>
+
+<section>
+  <div class="wrap two-col">
+    <div>
+      <div class="eyebrow">What to include</div>
+      <h2>Help me help you faster</h2>
+      <ul class="chips mt-1">
+        <li class="chip">Site location</li>
+        <li class="chip">Type of work</li>
+        <li class="chip">Number of contractors</li>
+        <li class="chip">Start date</li>
+        <li class="chip">Client spec (if any)</li>
+      </ul>
+      <div class="kv mt-3">
+        <div><span>Based in</span><b>Johannesburg Metropolitan Area</b></div>
+        <div><span>Travel</span><b>South Africa &amp; North Africa</b></div>
+        <div><span>LinkedIn</span><b><a href="https://www.linkedin.com/in/melissa-abrahams-84b50859/" rel="noopener noreferrer" target="_blank">melissa-abrahams</a></b></div>
+      </div>
+      <div class="notice mt-3">
+        <div><strong>Your privacy.</strong> Details you send are used only to respond to your enquiry, in line with POPIA. Nothing is stored on this website: the form opens your own email app with your message ready to send.</div>
+      </div>
+    </div>
+
+    <div class="card">
+      <!-- TODO (before launch): set data-to to Melissa's business email address. -->
+      <form id="contact-form" class="form" action="#" method="post" data-to="info@example.com" autocomplete="on">
+        <div class="field">
+          <label for="f-name">Full name *</label>
+          <input id="f-name" name="name" type="text" maxlength="80" autocomplete="name" required>
+          <div class="err" aria-live="polite"></div>
+        </div>
+        <div class="grid g2">
+          <div class="field">
+            <label for="f-email">Email *</label>
+            <input id="f-email" name="email" type="email" maxlength="120" autocomplete="email" inputmode="email" required>
+            <div class="err" aria-live="polite"></div>
+          </div>
+          <div class="field">
+            <label for="f-phone">Phone</label>
+            <input id="f-phone" name="phone" type="tel" maxlength="20" autocomplete="tel" inputmode="tel">
+            <div class="err" aria-live="polite"></div>
+          </div>
+        </div>
+        <div class="field">
+          <label for="f-company">Company</label>
+          <input id="f-company" name="company" type="text" maxlength="120" autocomplete="organization">
+          <div class="err" aria-live="polite"></div>
+        </div>
+        <div class="field">
+          <label for="f-service">Service needed *</label>
+          <select id="f-service" name="service" required>
+            <option value="">Choose a service…</option>
+            <option>Safety File compilation</option>
+            <option>HIRA / risk assessment</option>
+            <option>Fall Protection Plan</option>
+            <option>ISO 45001 / IMS audit</option>
+            <option>Incident investigation</option>
+            <option>Training</option>
+            <option>AI-assisted documentation</option>
+            <option>Other</option>
+          </select>
+          <div class="err" aria-live="polite"></div>
+        </div>
+        <div class="field">
+          <label for="f-message">Tell me about your site *</label>
+          <textarea id="f-message" name="message" maxlength="2000" required></textarea>
+          <div class="hint" id="msg-count">0 / 2000</div>
+          <div class="err" aria-live="polite"></div>
+        </div>
+        <div class="hp" aria-hidden="true">
+          <label for="f-website">Leave this field empty</label>
+          <input id="f-website" name="website" type="text" tabindex="-1" autocomplete="off">
+        </div>
+        <div class="field">
+          <label class="check"><input name="consent" type="checkbox" required> <span>I agree that my details may be used to respond to this enquiry (POPIA).</span></label>
+          <div class="err" aria-live="polite"></div>
+        </div>
+        <div id="form-status" class="form-status" role="status" aria-live="polite"></div>
+        <button class="btn btn-primary" type="submit">Send enquiry</button>
+      </form>
+    </div>
+  </div>
+</section>
+
+</main>
+<footer class="site-footer">
+  <div class="wrap">
+    <div class="foot-grid">
+      <div>
+        <h4>Melissa Abrahams</h4>
+        <p>Occupational Health, Safety &amp; Environmental consultant based in the Johannesburg Metropolitan Area, working across South Africa and North Africa.</p>
+        <p class="small">NEBOSH IGC &middot; IOSH &middot; IRCA Lead Auditor</p>
+      </div>
+      <div>
+        <h4>Pages</h4>
+        <ul>
+          <li><a href="about.html">About &amp; Certificates</a></li>
+          <li><a href="experience.html">Experience</a></li>
+          <li><a href="consultations.html">Consultations</a></li>
+          <li><a href="showcase.html">AI Showcase</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Get in touch</h4>
+        <ul>
+          <li><a href="contact.html">Book a consultation</a></li>
+          <li><a href="https://www.linkedin.com/in/melissa-abrahams-84b50859/" rel="noopener noreferrer" target="_blank">LinkedIn</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="foot-base">
+      <span>&copy; <span data-year>2026</span> Melissa Abrahams. Charts and drawings on the AI Showcase page use sample data.</span>
+      <button class="theme-btn" type="button">Dark mode</button>
+    </div>
+  </div>
+</footer>
+</body>
+</html>
